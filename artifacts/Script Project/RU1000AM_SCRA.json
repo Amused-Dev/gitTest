@@ -1,0 +1,9 @@
+{
+	"id": "3ae251d9-c9bc-ef11-9c03-00155d64f903",
+	"createdAt": "2024-12-17T22:54:20.223Z",
+	"createdBy": "bpratt01@alliedmin.com",
+	"name": "RU1000AM_SCRA",
+	"description": "Sequelize MSSQL Connector",
+	"ver": "24.12.18.1209",
+	"package": "439427e6-bdbb-ef11-9c01-00155d64f903"
+}

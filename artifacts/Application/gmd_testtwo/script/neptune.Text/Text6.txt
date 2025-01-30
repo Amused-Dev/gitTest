@@ -1,0 +1,13 @@
+.border-right-Color-Grey{
+    border-top: 1px solid #ebebeb;
+    border-right: 1px solid #ebebeb;
+}
+
+.custom20pxMarginBottomAndLeft{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.custom20pxMarginLeft{
+    margin-left: 30px;
+}

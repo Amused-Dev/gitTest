@@ -1,0 +1,178 @@
+{
+	"id": "439427e6-bdbb-ef11-9c01-00155d64f903",
+	"createdAt": "2024-12-16T14:56:16.630Z",
+	"createdBy": "bpratt01@alliedmin.com",
+	"git": {
+		"remote": "https://github.com/Amused-Dev/gitTest.git"
+	},
+	"name": "NBPRATT01",
+	"description": "Pratt's Dev Package",
+	"ver": "25.01.30.1206",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "e7cc859c-79c1-ef11-9c03-00155d64f903",
+			"application": "temp",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "439427E6-BDBB-EF11-9C01-00155D64F903"
+			}
+		},
+		{
+			"id": "dc603fb2-bebb-ef11-9c01-00155d64f903",
+			"application": "nqm1000am_globaltemp",
+			"title": "Floorplan",
+			"description": "Fiori Worklist",
+			"package": {
+				"id": "439427E6-BDBB-EF11-9C01-00155D64F903"
+			}
+		},
+		{
+			"id": "d0a3e3ab-8efd-4b9a-fe25-1176ccfc73ad",
+			"application": "gmd_testthree",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "439427E6-BDBB-EF11-9C01-00155D64F903"
+			}
+		},
+		{
+			"id": "bb56b0b2-e92c-4662-8f6f-a03c46232027",
+			"application": "gmd_testtwo",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "439427E6-BDBB-EF11-9C01-00155D64F903"
+			}
+		},
+		{
+			"id": "6a224dc1-d4c6-ef11-9c03-00155d64f903",
+			"application": "rc1005au",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "439427E6-BDBB-EF11-9C01-00155D64F903"
+			}
+		},
+		{
+			"id": "4c9f5c65-930e-4ea5-91e8-ec669676508a",
+			"application": "rc1006au",
+			"title": "Material Autocomplete Combobox",
+			"description": "",
+			"package": {
+				"id": "439427E6-BDBB-EF11-9C01-00155D64F903"
+			}
+		},
+		{
+			"id": "23ba3e66-32e8-4e44-fe26-fb2bd66baac9",
+			"application": "gmd_test",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "439427E6-BDBB-EF11-9C01-00155D64F903"
+			}
+		}
+	],
+	"api": [],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "eda88697-6cc4-ef11-9c03-00155d64f903",
+			"name": "nqm_gmd_requesthdr",
+			"description": "Global Master Data - Request Header"
+		},
+		{
+			"id": "9f5ca5cc-35cd-ef11-9c03-00155d64f903",
+			"name": "nqm_gmd_requestdtl",
+			"description": "Global Master Data - Request Detail"
+		},
+		{
+			"id": "61663009-dcd1-ef11-9c03-00155d64f903",
+			"name": "nqm_gmd_requesttsk",
+			"description": "Global Master Data - Request Tasks"
+		}
+	],
+	"jsclass": [
+		{
+			"id": "fcfe6d2e-f5c6-ef11-9c03-00155d64f903",
+			"name": "FullName_fromUserId",
+			"description": null
+		},
+		{
+			"id": "f44eeef0-9dbd-ef11-9c03-00155d64f903",
+			"name": "plmWorkAbstraction",
+			"description": "PLM Work Abtraction"
+		},
+		{
+			"id": "f2ba6f06-cebc-ef11-9c03-00155d64f903",
+			"name": "sequelizeMSSQLconnect",
+			"description": "Sequelize MSSQL Connector"
+		},
+		{
+			"id": "da8e7449-4ad4-ef11-9c03-00155d64f903",
+			"name": "CalledOn",
+			"description": null
+		},
+		{
+			"id": "d5a6d295-49d4-ef11-9c03-00155d64f903",
+			"name": "NameSpaces",
+			"description": null
+		},
+		{
+			"id": "b214ee4a-9ebd-ef11-9c03-00155d64f903",
+			"name": "plmOauthAPIHook",
+			"description": "AutoDesk PLM Oauth API Hook"
+		},
+		{
+			"id": "50d10e6a-81bd-ef11-9c03-00155d64f903",
+			"name": "plmWorkAbstraction",
+			"description": null
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "940347fb-f4c6-ef11-9c03-00155d64f903",
+			"name": "RC10005AU",
+			"description": "Common Screen Output Transformation Scripts"
+		},
+		{
+			"id": "5ab70780-49d4-ef11-9c03-00155d64f903",
+			"name": "ZquickTest",
+			"description": "TypeScript Test"
+		},
+		{
+			"id": "3ae251d9-c9bc-ef11-9c03-00155d64f903",
+			"name": "RU1000AM_SCRA",
+			"description": "Sequelize MSSQL Connector"
+		},
+		{
+			"id": "0eb8fbd9-9dbd-ef11-9c03-00155d64f903",
+			"name": "RU1001AM",
+			"description": "RD PLM Work Abstractions"
+		}
+	],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}

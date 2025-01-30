@@ -1,0 +1,3 @@
+if (typeof createdBy === "undefined" || createdBy === null || createdBy === "") { return; }  
+var formattedText = UserData.getNameByUsername(createdBy); 
+return formattedText;

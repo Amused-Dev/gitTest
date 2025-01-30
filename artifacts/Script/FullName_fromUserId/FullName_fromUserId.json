@@ -1,0 +1,36 @@
+{
+	"id": "fcfe6d2e-f5c6-ef11-9c03-00155d64f903",
+	"createdAt": "2024-12-30T21:29:43.046Z",
+	"createdBy": "bpratt01@alliedmin.com",
+	"globalScripts": [],
+	"externalModules": [
+		{
+			"id": "F2B09F56-63BD-EF11-9C03-00155D64F903",
+			"name": "tedious",
+			"contextname": "tedious",
+			"path": "/Allied_Custom_NPMS/node_modules/tedious"
+		}
+	],
+	"entitySets": [],
+	"apis": [
+		{
+			"id": "d84c5033-9368-406e-8435-05a9004be7a8",
+			"parent": "ff665193-a739-4c9d-a487-fb3da378efbf",
+			"name": "/Get",
+			"contextname": "GetSecUserData",
+			"method": "POST"
+		}
+	],
+	"name": "FullName_fromUserId",
+	"ver": "24.12.30.1648",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": true,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "940347fb-f4c6-ef11-9c03-00155d64f903",
+	"package": "439427e6-bdbb-ef11-9c01-00155d64f903"
+}

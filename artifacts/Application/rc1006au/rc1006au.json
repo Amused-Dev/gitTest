@@ -1,0 +1,394 @@
+{
+	"id": "4c9f5c65-930e-4ea5-91e8-ec669676508a",
+	"createdAt": "2024-12-31T16:54:59.910Z",
+	"createdBy": "bpratt01@alliedmin.com",
+	"objects": [
+		{
+			"fieldNo": "21a3ace5-cb75-48e6-eff9-6bc1960bdd7b",
+			"fieldName": "FlexBox",
+			"fieldParent": 0,
+			"fieldType": "sap.m.FlexBox",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": []
+		},
+		{
+			"fieldNo": "8d822325-92cb-490e-9af2-33edb6ec311e",
+			"fieldName": "ComboBoxMatAuto",
+			"fieldParent": 0,
+			"fieldType": "sap.m.ComboBox",
+			"description": "Material Autocomplete Combobox",
+			"script": "",
+			"customComponent": false,
+			"disabled": true,
+			"bindingValue": "Generic Array",
+			"bindingType": "h",
+			"bindingSource": "P9",
+			"request": [],
+			"response": [],
+			"attributes": [
+				{
+					"attribute": "showButton",
+					"grouping": "Properties",
+					"value": "false",
+					"script": "",
+					"translation": []
+				}
+			],
+			"data": [
+				{
+					"fieldNo": "4b0abe05-b39d-4a2c-d31a-2ebe6909ba1a",
+					"fieldName": "ListItem",
+					"fieldParent": "8d822325-92cb-490e-9af2-33edb6ec311e",
+					"fieldType": "sap.ui.core.ListItem",
+					"script": "",
+					"customComponent": false,
+					"disabled": true,
+					"bindingType": "h",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "text",
+							"grouping": "Properties",
+							"value": "{Material_Number} - {Material_Desc}",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "key",
+							"grouping": "Properties",
+							"value": "{Material_Number}",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "additionalText",
+							"grouping": "Properties",
+							"value": "{Material_Desc}",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "cfc3e5a3-bb75-4ff4-9008-c072de17938f",
+					"fieldName": "Javascript",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/Javascript.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "isUnique",
+							"grouping": "Properties",
+							"value": "true",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "f4279f6a-bbd7-49b5-958b-ef2f292f29cd",
+					"fieldName": "getMaterialsAPI",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"customComponent": false,
+					"restSource": "aa6f737d-56bb-ef11-9c01-00155d64f903",
+					"restOperation": "1613eb85-72e4-410b-9c1f-56d6cbfcf126",
+					"request": [],
+					"response": [
+						{
+							"status": "200",
+							"dataId": "0a1aee86-e039-45f9-b46a-1fbe406e2966",
+							"modelFieldNo": "8d822325-92cb-490e-9af2-33edb6ec311e"
+						}
+					],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "1b31ae78-d3a9-4564-bc3c-c80e3420a185",
+					"fieldName": "namespace",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Typescript",
+					"script": "file://script/neptune.Typescript/namespace.ts",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "isUnique",
+							"grouping": "Properties",
+							"value": "true",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": {
+		"icon": "/media/root/CustomComponentExample/CustomComponentIcon.png",
+		"documentation": "",
+		"containerId": null,
+		"attributes": [
+			{
+				"id": "89a3e9da-01f5-43ba-9d7e-55e734e7edec",
+				"objectType": "group",
+				"attribute": {
+					"ATTRIBUTE": "ComboBoxMatAuto",
+					"GROUPING": ""
+				}
+			},
+			{
+				"id": "d2cb0fe0-a770-4e2f-95e6-540b58a27e84",
+				"objectType": "attribute",
+				"fieldId": "8d822325-92cb-490e-9af2-33edb6ec311e",
+				"parent": "89a3e9da-01f5-43ba-9d7e-55e734e7edec",
+				"attribute": {
+					"ATTRIBUTE": "width",
+					"GROUPING": "ComboBoxMatAuto",
+					"PARENT": "ComboBoxMatAuto"
+				},
+				"original": {
+					"FIELD_ID": "8d822325-92cb-490e-9af2-33edb6ec311e",
+					"ATTRIBUTE": "width",
+					"VALUE_TABLE": 0,
+					"GROUPING": "Properties",
+					"PARENT": "Properties",
+					"SHOW_LABEL": false,
+					"DEFAULT": "",
+					"ENABLE_VALUES": false,
+					"VALUEHELPONLY": false,
+					"SCRIPT_ICON": "sap-icon://connected",
+					"SHOW_SCRIPT": false,
+					"ENABLE_SCRIPT": true,
+					"children": []
+				},
+				"fieldType": "sap.m.ComboBox"
+			},
+			{
+				"id": "d95a6823-8aaa-40a8-8f45-ee094c609da3",
+				"objectType": "attribute",
+				"fieldId": "8d822325-92cb-490e-9af2-33edb6ec311e",
+				"parent": "89a3e9da-01f5-43ba-9d7e-55e734e7edec",
+				"attribute": {
+					"ATTRIBUTE": "showClearIcon",
+					"GROUPING": "ComboBoxMatAuto",
+					"PARENT": "ComboBoxMatAuto"
+				},
+				"original": {
+					"FIELD_ID": "8d822325-92cb-490e-9af2-33edb6ec311e",
+					"ATTRIBUTE": "showClearIcon",
+					"VALUE_TABLE": 1,
+					"GROUPING": "Properties",
+					"PARENT": "Properties",
+					"SHOW_LABEL": false,
+					"DEFAULT": false,
+					"ENABLE_VALUES": true,
+					"VALUEHELPONLY": true,
+					"SCRIPT_ICON": "sap-icon://connected",
+					"SHOW_SCRIPT": false,
+					"ENABLE_SCRIPT": true,
+					"children": []
+				},
+				"fieldType": "sap.m.ComboBox"
+			},
+			{
+				"id": "db3905e7-5fee-4cca-9193-b78186bd66e9",
+				"objectType": "attribute",
+				"fieldId": "8d822325-92cb-490e-9af2-33edb6ec311e",
+				"parent": "89a3e9da-01f5-43ba-9d7e-55e734e7edec",
+				"attribute": {
+					"ATTRIBUTE": "required",
+					"GROUPING": "ComboBoxMatAuto",
+					"PARENT": "ComboBoxMatAuto"
+				},
+				"original": {
+					"FIELD_ID": "8d822325-92cb-490e-9af2-33edb6ec311e",
+					"ATTRIBUTE": "required",
+					"VALUE_TABLE": 1,
+					"GROUPING": "Properties",
+					"PARENT": "Properties",
+					"SHOW_LABEL": false,
+					"DEFAULT": false,
+					"ENABLE_VALUES": true,
+					"VALUEHELPONLY": true,
+					"SCRIPT_ICON": "sap-icon://connected",
+					"SHOW_SCRIPT": false,
+					"ENABLE_SCRIPT": true,
+					"children": []
+				},
+				"fieldType": "sap.m.ComboBox"
+			},
+			{
+				"id": "54b63700-e2c5-4484-c55c-65c3b679551b",
+				"objectType": "attribute",
+				"fieldId": "8d822325-92cb-490e-9af2-33edb6ec311e",
+				"parent": "89a3e9da-01f5-43ba-9d7e-55e734e7edec",
+				"attribute": {
+					"ATTRIBUTE": "placeholder",
+					"GROUPING": "ComboBoxMatAuto",
+					"PARENT": "ComboBoxMatAuto"
+				},
+				"original": {
+					"FIELD_ID": "8d822325-92cb-490e-9af2-33edb6ec311e",
+					"ATTRIBUTE": "placeholder",
+					"VALUE_TABLE": 0,
+					"GROUPING": "Properties",
+					"PARENT": "Properties",
+					"SHOW_LABEL": false,
+					"DEFAULT": "",
+					"ENABLE_VALUES": false,
+					"VALUEHELPONLY": false,
+					"SCRIPT_ICON": "sap-icon://connected",
+					"SHOW_SCRIPT": false,
+					"ENABLE_SCRIPT": true,
+					"children": []
+				},
+				"fieldType": "sap.m.ComboBox"
+			},
+			{
+				"id": "8db773a5-e58e-47f6-95a3-d8ef36b12459",
+				"objectType": "attribute",
+				"fieldId": "8d822325-92cb-490e-9af2-33edb6ec311e",
+				"parent": "89a3e9da-01f5-43ba-9d7e-55e734e7edec",
+				"attribute": {
+					"ATTRIBUTE": "styleClassMargin",
+					"GROUPING": "ComboBoxMatAuto",
+					"PARENT": "ComboBoxMatAuto"
+				},
+				"original": {
+					"FIELD_ID": "8d822325-92cb-490e-9af2-33edb6ec311e",
+					"ATTRIBUTE": "styleClassMargin",
+					"VALUE_TABLE": 416,
+					"GROUPING": "Properties",
+					"PARENT": "Properties",
+					"SHOW_LABEL": false,
+					"DEFAULT": "",
+					"ENABLE_VALUES": true,
+					"VALUEHELPONLY": true,
+					"SCRIPT_ICON": "sap-icon://connected",
+					"SHOW_SCRIPT": false,
+					"ENABLE_SCRIPT": true,
+					"SHOW_BUTTON": false,
+					"children": []
+				},
+				"fieldType": "sap.m.ComboBox"
+			},
+			{
+				"id": "f4577f1e-828a-484f-9412-00a48379df1f",
+				"objectType": "attribute",
+				"fieldId": "8d822325-92cb-490e-9af2-33edb6ec311e",
+				"parent": "89a3e9da-01f5-43ba-9d7e-55e734e7edec",
+				"attribute": {
+					"ATTRIBUTE": "styleClass",
+					"GROUPING": "ComboBoxMatAuto",
+					"PARENT": "ComboBoxMatAuto"
+				},
+				"original": {
+					"FIELD_ID": "8d822325-92cb-490e-9af2-33edb6ec311e",
+					"ATTRIBUTE": "styleClass",
+					"VALUE_TABLE": 0,
+					"GROUPING": "Properties",
+					"PARENT": "Properties",
+					"SHOW_LABEL": false,
+					"DEFAULT": "",
+					"ENABLE_VALUES": false,
+					"VALUEHELPONLY": false,
+					"SCRIPT_ICON": "sap-icon://connected",
+					"SHOW_SCRIPT": false,
+					"ENABLE_SCRIPT": true,
+					"SHOW_BUTTON": false,
+					"children": []
+				},
+				"fieldType": "sap.m.ComboBox"
+			}
+		],
+		"containers": [
+			{
+				"id": "8d822325-92cb-490e-9af2-33edb6ec311e",
+				"label": "ComboBoxMatAuto",
+				"type": "sap.m.ComboBox"
+			},
+			{
+				"id": "21a3ace5-cb75-48e6-eff9-6bc1960bdd7b",
+				"label": "FlexBox",
+				"type": "sap.m.FlexBox"
+			}
+		],
+		"topLevelObjects": [
+			"sap.m.FlexBox",
+			"sap.m.ComboBox"
+		]
+	},
+	"ver": "24.12.31.1155",
+	"application": "rc1006au",
+	"title": "Material Autocomplete Combobox",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "E",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": null,
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": true,
+	"activationHistoryCount": 10,
+	"apis": [
+		{
+			"id": "aa6f737d-56bb-ef11-9c01-00155d64f903",
+			"name": "NMM_MaterialMaster",
+			"ver": "25.01.20.1210"
+		}
+	],
+	"package": "439427e6-bdbb-ef11-9c01-00155d64f903"
+}

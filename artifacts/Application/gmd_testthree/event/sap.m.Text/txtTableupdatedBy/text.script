@@ -1,0 +1,3 @@
+if (typeof updatedBy === "undefined" || updatedBy === null || updatedBy === "") { return; }  
+var formattedText = UserData.getNameByUsername(updatedBy); 
+return formattedText;

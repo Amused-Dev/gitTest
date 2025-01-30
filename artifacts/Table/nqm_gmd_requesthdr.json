@@ -1,0 +1,120 @@
+{
+	"id": "eda88697-6cc4-ef11-9c03-00155d64f903",
+	"createdAt": "2024-12-27T16:06:57.096Z",
+	"createdBy": "bpratt01@alliedmin.com",
+	"fields": [
+		{
+			"id": "de9f54ce-50bb-4b2b-d2da-cdd84ea771c6",
+			"fieldName": "rhNum",
+			"fieldType": "integer",
+			"isUnique": true,
+			"description": "Number (Request)"
+		},
+		{
+			"id": "f6dfafd0-c995-440e-c7fa-351e5c40d64a",
+			"fieldName": "rhDesc",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Description (Request)",
+			"isNullable": true
+		},
+		{
+			"id": "ce524011-b7b6-4f07-cb96-059caf079789",
+			"fieldName": "rhObj",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Object  (Request)",
+			"isNullable": true
+		},
+		{
+			"id": "81230901-ea33-4c90-b9e0-78942cccf761",
+			"fieldName": "rhStatus",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Status  (Request)",
+			"isNullable": true
+		},
+		{
+			"id": "15b61a1c-5023-490a-f3c8-a0fa8fdd0efc",
+			"fieldName": "rhPriority",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Priority  (Request)",
+			"isNullable": true
+		},
+		{
+			"id": "bfe7ebcc-9269-41e0-a9be-9daa21ba2c76",
+			"fieldName": "rhType",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Type  (Request)",
+			"isNullable": true
+		},
+		{
+			"id": "6f4be672-4961-4b02-af05-9f502c1f8238",
+			"fieldName": "rhPlant",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Plant (Request)",
+			"isNullable": true
+		},
+		{
+			"id": "6e43cf9e-f837-4857-bf2b-3a64b834b356",
+			"fieldName": "rhReqtrUserId",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "UserId (Requestor)",
+			"isNullable": true
+		},
+		{
+			"id": "4fc5bad7-9449-4fe7-b2de-32aa483ad747",
+			"fieldName": "rhReqtrLoctn",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Location (Requestor)",
+			"isNullable": true
+		},
+		{
+			"id": "6d710b1f-17c3-4193-fb74-9a7a7b8a3105",
+			"fieldName": "rhReqtrDept",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Department (Requestor)",
+			"isNullable": true
+		},
+		{
+			"id": "c0caba87-b5b0-4cac-d045-4626d6a75e58",
+			"fieldName": "rhCompltnDate",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"description": "Completion Date",
+			"isNullable": true
+		},
+		{
+			"id": "7531895e-2759-4396-e12c-a84933e8284a",
+			"fieldName": "rhCompltnDateReqtd",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"description": "Completion Date Requested",
+			"isNullable": true
+		},
+		{
+			"id": "a9e5adaa-98e9-4b37-d44c-028793c1db8f",
+			"fieldName": "rhWorkflow",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Workflow",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "nqm_gmd_requesthdr",
+	"description": "Global Master Data - Request Header",
+	"ver": "24.12.27.1201",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "439427e6-bdbb-ef11-9c01-00155d64f903",
+	"rolesRead": [],
+	"rolesWrite": []
+}

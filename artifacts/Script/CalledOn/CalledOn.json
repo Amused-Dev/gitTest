@@ -1,0 +1,21 @@
+{
+	"id": "da8e7449-4ad4-ef11-9c03-00155d64f903",
+	"createdAt": "2025-01-16T20:41:40.703Z",
+	"createdBy": "bpratt01@alliedmin.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [],
+	"apis": [],
+	"name": "CalledOn",
+	"ver": "25.01.23.0934",
+	"description": null,
+	"folder": "",
+	"content": "",
+	"useAsGlobalScript": false,
+	"transpiledContent": "",
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "typescript",
+	"jsscriptGroup": "5ab70780-49d4-ef11-9c03-00155d64f903",
+	"package": "439427e6-bdbb-ef11-9c01-00155d64f903"
+}

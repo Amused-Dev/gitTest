@@ -1,0 +1,3 @@
+if (typeof rhCompltnDate === "undefined" || rhCompltnDate === null || rhCompltnDate === "") { return; }  
+var formattedText = GeneralFunctions.dateFormatter(rhCompltnDate);
+return formattedText;

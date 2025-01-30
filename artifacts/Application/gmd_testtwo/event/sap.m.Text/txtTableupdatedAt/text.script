@@ -1,0 +1,3 @@
+if (typeof updatedAt === "undefined" || updatedAt === null || updatedAt === "") { return; }  
+var formattedText = GeneralFunctions.dateFormatter(updatedAt);
+return formattedText;

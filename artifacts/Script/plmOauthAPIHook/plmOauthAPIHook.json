@@ -1,0 +1,29 @@
+{
+	"id": "b214ee4a-9ebd-ef11-9c03-00155d64f903",
+	"createdAt": "2024-12-19T00:15:04.160Z",
+	"createdBy": "bpratt01@alliedmin.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [],
+	"apis": [
+		{
+			"id": "48e01bd7-f49e-415d-b4b8-9e7fc9c0f9df",
+			"parent": "8d2987fa-16be-ef11-9c03-00155d64f903",
+			"name": "/token",
+			"contextname": "token",
+			"method": "POST"
+		}
+	],
+	"name": "plmOauthAPIHook",
+	"ver": "24.12.19.1109",
+	"description": "AutoDesk PLM Oauth API Hook",
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": true,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "0eb8fbd9-9dbd-ef11-9c03-00155d64f903",
+	"package": "439427e6-bdbb-ef11-9c01-00155d64f903"
+}

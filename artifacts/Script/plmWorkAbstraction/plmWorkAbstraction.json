@@ -1,0 +1,21 @@
+{
+	"id": "f44eeef0-9dbd-ef11-9c03-00155d64f903",
+	"createdAt": "2024-12-19T00:12:33.163Z",
+	"createdBy": "bpratt01@alliedmin.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [],
+	"apis": [],
+	"name": "plmWorkAbstraction",
+	"ver": "25.01.23.1433",
+	"description": "PLM Work Abtraction",
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": true,
+	"transpiledContent": null,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "0eb8fbd9-9dbd-ef11-9c03-00155d64f903",
+	"package": "439427e6-bdbb-ef11-9c01-00155d64f903"
+}

@@ -1,0 +1,21 @@
+{
+	"id": "d5a6d295-49d4-ef11-9c03-00155d64f903",
+	"createdAt": "2025-01-16T20:36:39.340Z",
+	"createdBy": "bpratt01@alliedmin.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [],
+	"apis": [],
+	"name": "NameSpaces",
+	"ver": "25.01.16.1540",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.ts",
+	"useAsGlobalScript": false,
+	"transpiledContent": "file:///transpiledContent.ts",
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "typescript",
+	"jsscriptGroup": "5ab70780-49d4-ef11-9c03-00155d64f903",
+	"package": "439427e6-bdbb-ef11-9c01-00155d64f903"
+}

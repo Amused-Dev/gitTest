@@ -1,0 +1,62 @@
+{
+	"id": "61663009-dcd1-ef11-9c03-00155d64f903",
+	"createdAt": "2025-01-13T18:27:26.690Z",
+	"createdBy": "bpratt01@alliedmin.com",
+	"fields": [
+		{
+			"id": "6d9d1aba-ac00-40c5-af0a-d8448daab640",
+			"fieldName": "rtNum",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Request Number (Task)"
+		},
+		{
+			"id": "a973dcf4-629e-4798-f95e-6ceb5b06ce8b",
+			"fieldName": "rtTskNum",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Request Task Number"
+		},
+		{
+			"id": "4551dab4-a7d9-43e6-952c-8739ff046afe",
+			"fieldName": "rtType",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Task Type "
+		},
+		{
+			"id": "5632f820-8ce8-404d-bbdc-59de23bd6e82",
+			"fieldName": "rtSteward",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Steward",
+			"isNullable": true
+		},
+		{
+			"id": "e2d7dccd-2612-464b-a34e-ec330bd7ace6",
+			"fieldName": "rtStatus",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Task Status",
+			"isNullable": true
+		},
+		{
+			"id": "e0b9fa8d-8027-48ec-8e9e-9f2afe7abdcc",
+			"fieldName": "rtCompltnDate",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"description": "Task Completion Date",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "nqm_gmd_requesttsk",
+	"description": "Global Master Data - Request Tasks",
+	"ver": "25.01.27.1824",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "439427e6-bdbb-ef11-9c01-00155d64f903",
+	"rolesRead": [],
+	"rolesWrite": []
+}

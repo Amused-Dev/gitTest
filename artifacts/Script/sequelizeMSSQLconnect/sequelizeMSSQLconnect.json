@@ -1,0 +1,28 @@
+{
+	"id": "f2ba6f06-cebc-ef11-9c03-00155d64f903",
+	"createdAt": "2024-12-17T23:24:13.940Z",
+	"createdBy": "bpratt01@alliedmin.com",
+	"globalScripts": [],
+	"externalModules": [
+		{
+			"id": "36E48F04-A8BC-EF11-9C03-00155D64F903",
+			"name": "sequelize",
+			"contextname": "sequelize",
+			"path": "/Allied_Custom_NPMS/node_modules/sequelize"
+		}
+	],
+	"entitySets": [],
+	"apis": [],
+	"name": "sequelizeMSSQLconnect",
+	"ver": "24.12.18.1209",
+	"description": "Sequelize MSSQL Connector",
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": true,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "3ae251d9-c9bc-ef11-9c03-00155d64f903",
+	"package": "439427e6-bdbb-ef11-9c01-00155d64f903"
+}

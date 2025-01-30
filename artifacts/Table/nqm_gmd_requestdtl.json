@@ -1,0 +1,65 @@
+{
+	"id": "9f5ca5cc-35cd-ef11-9c03-00155d64f903",
+	"createdAt": "2025-01-07T20:27:24.373Z",
+	"createdBy": "bpratt01@alliedmin.com",
+	"fields": [
+		{
+			"id": "cd5e87c9-f025-48ca-90c2-688babba25c1",
+			"fieldName": "rdNum",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Request Number (Detail)",
+			"isNullable": true
+		},
+		{
+			"id": "e02d0dd5-08ce-4361-c5fb-0c4b1e247bc2",
+			"fieldName": "rdDtlNum",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Request Detail Number (Detail)",
+			"isNullable": true
+		},
+		{
+			"id": "b8a450a8-8dc4-4535-d154-4351fb2a18ad",
+			"fieldName": "rdObj",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "SAP Object  (Detail)",
+			"isNullable": true
+		},
+		{
+			"id": "ed22e541-4ab6-494d-a42e-9f35fb63501a",
+			"fieldName": "rdSteward",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Data Steward  (Detail)",
+			"isNullable": true
+		},
+		{
+			"id": "f8bb2583-3803-45de-8c5e-46300246246a",
+			"fieldName": "rdChgTyp",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Change Type  (Detail)",
+			"isNullable": true
+		},
+		{
+			"id": "3379e923-ffe2-406d-cf3f-171af0b9d68e",
+			"fieldName": "rdCount",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Count  (Detail)",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "nqm_gmd_requestdtl",
+	"description": "Global Master Data - Request Detail",
+	"ver": "25.01.14.1735",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "439427e6-bdbb-ef11-9c01-00155d64f903",
+	"rolesRead": [],
+	"rolesWrite": []
+}
